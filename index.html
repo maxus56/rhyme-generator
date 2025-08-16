@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rhyme Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Funny Rhyme Generator</h1>
+    <input type="text" id="nameInput" placeholder="Enter text" />
+    <button id="generateBtn">Find rhyme</button>
+    <div class="selector">
+      <label>
+        <input type="radio" name="rhymeType" value="all" checked /> All
+      </label>
+      <label>
+        <input type="radio" name="rhymeType" value="words" /> Words
+      </label>
+      <label>
+        <input type="radio" name="rhymeType" value="phrases" /> Phrases
+      </label>
+    </div>
+    <ul id="results"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
